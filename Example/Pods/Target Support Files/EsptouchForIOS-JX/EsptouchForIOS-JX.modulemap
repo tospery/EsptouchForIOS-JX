@@ -1,0 +1,6 @@
+framework module EsptouchForIOS_JX {
+  umbrella header "EsptouchForIOS-JX-umbrella.h"
+
+  export *
+  module * { export * }
+}

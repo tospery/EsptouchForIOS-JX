@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9CB92B9F8D88E417D41FEB11295017 /* ESPTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2494A3691723891182E6BB52C70DCF /* ESPTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F46620189F01D84924D2955FC602598 /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEE2990ECF07494AD7C5983FE63060 /* ESP_CRC8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28293255099E3683DAF1EB8DFB83F886 /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F137C7B0E56F3FE71382083ECAD794D /* ESP_ByteUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36418AB64EFFCD61CD0CFB20470893A9 /* ESPVersionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B59587FD0C851BCBC8F7522FBB6CDE /* ESPVersionMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456BF10DE1A84D6D3659825E459DA617 /* ESPAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD90F1691C4CB6207505538CFCD6BDD /* ESPAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4681433637F16894F43E83D0512032E8 /* ESPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B7C2120C6E34FA398DD24CA7BFD793 /* ESPTools.m */; };
+		59CF5EAD679B6F9C09115663DBAF6298 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		5C7343B5D4E3B1F7D09DC369B453B3D1 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB6B4360CBFB323B3AF4F960072599 /* ESP_WifiUtil.m */; };
+		63DBEF1B1B0CAFF6B0751F31DA61E571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		785FAE28274DA7C36A99BA5B6537A202 /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EF3E2F7B7F33A9110F50D90B691E29 /* ESPAES.m */; };
+		842C5C999E1C04555D60BCC0F71F8FDF /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D921FB98AFC128BB711002C25A51F8F9 /* ESP_ByteUtil.m */; };
+		917BE6CCBDD6E1DBB7FD39D68C609CB6 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11EF500632385EDBDEE14B2FB4DDD7 /* ESP_CRC8.m */; };
+		B18E2F0558CCF6779AE108E25331C8A9 /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4731D9557EB7AFEDB8502EE941D11DC7 /* ESP_NetUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89F4FA2F88EEEC46B07453C418CCB2F /* ESP_WifiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F8E2AFA38677D31C12ABDD9E56F8DC /* ESP_WifiUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB09E010A70BCE72383C86BF497D56BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		DBC8E807401F47628FB03D808BA446C4 /* EsptouchForIOS-JX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DFA726FB3A380361105E15D670C1B0 /* EsptouchForIOS-JX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E010DD85B40014DD1B6FCB6288C46EC9 /* EsptouchForIOS-JX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA563EE2D0DD7866201AB5CB3C81F9B /* EsptouchForIOS-JX-dummy.m */; };
+		E4BF436AA8B6B6AFAC049DDADB6D8EC5 /* Pods-EsptouchForIOS-JX_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD035AE190DA21DFC6E9C1FDA3B4457 /* Pods-EsptouchForIOS-JX_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF52D3DA4F1E4E2E0F5BD56DAC037DAE /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD647D1005B1C8B4C067D6F7884AF783 /* ESP_NetUtil.m */; };
+		FD9B32BD855897FAB62FD4C7237CCADB /* Pods-EsptouchForIOS-JX_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E844F636D2E7C17DC85856F300678 /* Pods-EsptouchForIOS-JX_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8D0AE76FA1B235A95C149A22CFD83E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676275BE615DD8711C38556D8D10C3D1;
+			remoteInfo = "EsptouchForIOS-JX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A3CDBACBEA6192174CF0DB255F8899 /* EsptouchForIOS-JX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "EsptouchForIOS-JX.modulemap"; sourceTree = "<group>"; };
+		2400CE9A92A338A4201FD5147525F0DC /* EsptouchForIOS-JX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EsptouchForIOS-JX.release.xcconfig"; sourceTree = "<group>"; };
+		326866904118809E3B67F9D4B41DCCF8 /* EsptouchForIOS-JX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EsptouchForIOS-JX.debug.xcconfig"; sourceTree = "<group>"; };
+		330E844F636D2E7C17DC85856F300678 /* Pods-EsptouchForIOS-JX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsptouchForIOS-JX_Example-dummy.m"; sourceTree = "<group>"; };
+		4450A330CD80147156797419571502E5 /* EsptouchForIOS-JX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EsptouchForIOS-JX-Info.plist"; sourceTree = "<group>"; };
+		45F8E2AFA38677D31C12ABDD9E56F8DC /* ESP_WifiUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_WifiUtil.h; path = "EsptouchForIOS-JX/Classes/ESP_WifiUtil.h"; sourceTree = "<group>"; };
+		4637A5E1A66B741EE744F3DEC697E0F5 /* Pods-EsptouchForIOS-JX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsptouchForIOS-JX_Example.modulemap"; sourceTree = "<group>"; };
+		4731D9557EB7AFEDB8502EE941D11DC7 /* ESP_NetUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_NetUtil.h; path = "EsptouchForIOS-JX/Classes/ESP_NetUtil.h"; sourceTree = "<group>"; };
+		47756E583C2D2618758E4CC5C472D28F /* Pods-EsptouchForIOS-JX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EsptouchForIOS-JX_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E2494A3691723891182E6BB52C70DCF /* ESPTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTools.h; path = "EsptouchForIOS-JX/Classes/ESPTools.h"; sourceTree = "<group>"; };
+		56EF3E2F7B7F33A9110F50D90B691E29 /* ESPAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPAES.m; path = "EsptouchForIOS-JX/Classes/ESPAES.m"; sourceTree = "<group>"; };
+		59DEE2990ECF07494AD7C5983FE63060 /* ESP_CRC8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_CRC8.h; path = "EsptouchForIOS-JX/Classes/ESP_CRC8.h"; sourceTree = "<group>"; };
+		5CD90F1691C4CB6207505538CFCD6BDD /* ESPAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPAES.h; path = "EsptouchForIOS-JX/Classes/ESPAES.h"; sourceTree = "<group>"; };
+		5F98A3E4650A3851E13BBCF42DF97D8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62ECD60E0F780133FDFE1E4BBCCB4006 /* Pods-EsptouchForIOS-JX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsptouchForIOS-JX_Example-Info.plist"; sourceTree = "<group>"; };
+		66300F950D50F2009B93CB1399A2530B /* Pods-EsptouchForIOS-JX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsptouchForIOS-JX_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66CB6B4360CBFB323B3AF4F960072599 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_WifiUtil.m; path = "EsptouchForIOS-JX/Classes/ESP_WifiUtil.m"; sourceTree = "<group>"; };
+		6F137C7B0E56F3FE71382083ECAD794D /* ESP_ByteUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_ByteUtil.h; path = "EsptouchForIOS-JX/Classes/ESP_ByteUtil.h"; sourceTree = "<group>"; };
+		710111277E0E7FAEA1D0DA30FE613794 /* Pods-EsptouchForIOS-JX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsptouchForIOS-JX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		86B59587FD0C851BCBC8F7522FBB6CDE /* ESPVersionMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPVersionMacro.h; path = "EsptouchForIOS-JX/Classes/ESPVersionMacro.h"; sourceTree = "<group>"; };
+		8DEA6BC7A4AC4387D195240087F26963 /* Pods-EsptouchForIOS-JX_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EsptouchForIOS-JX_Example"; path = Pods_EsptouchForIOS_JX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FED877569E04A8440417A75C4F03F3 /* EsptouchForIOS-JX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "EsptouchForIOS-JX.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA563EE2D0DD7866201AB5CB3C81F9B /* EsptouchForIOS-JX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EsptouchForIOS-JX-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD035AE190DA21DFC6E9C1FDA3B4457 /* Pods-EsptouchForIOS-JX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsptouchForIOS-JX_Example-umbrella.h"; sourceTree = "<group>"; };
+		B25AC647C28CA907D9AE0DD4976A7B00 /* EsptouchForIOS-JX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "EsptouchForIOS-JX"; path = EsptouchForIOS_JX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DFA726FB3A380361105E15D670C1B0 /* EsptouchForIOS-JX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsptouchForIOS-JX-umbrella.h"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2C54A0B327F235E16A5C518526ACC12 /* Pods-EsptouchForIOS-JX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsptouchForIOS-JX_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D540E3DEA4D7AE11702FAF0382A40AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6C337509812A98814593F8011DF699D /* EsptouchForIOS-JX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsptouchForIOS-JX-prefix.pch"; sourceTree = "<group>"; };
+		D759459109DA0DA0AFD965FA4BB73822 /* Pods-EsptouchForIOS-JX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsptouchForIOS-JX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D921FB98AFC128BB711002C25A51F8F9 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_ByteUtil.m; path = "EsptouchForIOS-JX/Classes/ESP_ByteUtil.m"; sourceTree = "<group>"; };
+		E8B7C2120C6E34FA398DD24CA7BFD793 /* ESPTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTools.m; path = "EsptouchForIOS-JX/Classes/ESPTools.m"; sourceTree = "<group>"; };
+		EA11EF500632385EDBDEE14B2FB4DDD7 /* ESP_CRC8.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_CRC8.m; path = "EsptouchForIOS-JX/Classes/ESP_CRC8.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD647D1005B1C8B4C067D6F7884AF783 /* ESP_NetUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_NetUtil.m; path = "EsptouchForIOS-JX/Classes/ESP_NetUtil.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A511FB8F142DE9DE061E1DA13DF067E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DBEF1B1B0CAFF6B0751F31DA61E571 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6083A59A433AF105CAEADE398D78135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB09E010A70BCE72383C86BF497D56BD /* Foundation.framework in Frameworks */,
+				59CF5EAD679B6F9C09115663DBAF6298 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22DD816CB35BCB95C0DB5D29C3F377C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A3CDBACBEA6192174CF0DB255F8899 /* EsptouchForIOS-JX.modulemap */,
+				9AA563EE2D0DD7866201AB5CB3C81F9B /* EsptouchForIOS-JX-dummy.m */,
+				4450A330CD80147156797419571502E5 /* EsptouchForIOS-JX-Info.plist */,
+				D6C337509812A98814593F8011DF699D /* EsptouchForIOS-JX-prefix.pch */,
+				C8DFA726FB3A380361105E15D670C1B0 /* EsptouchForIOS-JX-umbrella.h */,
+				326866904118809E3B67F9D4B41DCCF8 /* EsptouchForIOS-JX.debug.xcconfig */,
+				2400CE9A92A338A4201FD5147525F0DC /* EsptouchForIOS-JX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EsptouchForIOS-JX";
+			sourceTree = "<group>";
+		};
+		2BD3C1B977BB08964EC16D41ADB41079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25AC647C28CA907D9AE0DD4976A7B00 /* EsptouchForIOS-JX */,
+				8DEA6BC7A4AC4387D195240087F26963 /* Pods-EsptouchForIOS-JX_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5854A3B49BB9F46610AA90D41C212210 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C9E2838AB0F83C8FF1A8527892DC11 /* Pods-EsptouchForIOS-JX_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70C9E2838AB0F83C8FF1A8527892DC11 /* Pods-EsptouchForIOS-JX_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4637A5E1A66B741EE744F3DEC697E0F5 /* Pods-EsptouchForIOS-JX_Example.modulemap */,
+				D759459109DA0DA0AFD965FA4BB73822 /* Pods-EsptouchForIOS-JX_Example-acknowledgements.markdown */,
+				710111277E0E7FAEA1D0DA30FE613794 /* Pods-EsptouchForIOS-JX_Example-acknowledgements.plist */,
+				330E844F636D2E7C17DC85856F300678 /* Pods-EsptouchForIOS-JX_Example-dummy.m */,
+				47756E583C2D2618758E4CC5C472D28F /* Pods-EsptouchForIOS-JX_Example-frameworks.sh */,
+				62ECD60E0F780133FDFE1E4BBCCB4006 /* Pods-EsptouchForIOS-JX_Example-Info.plist */,
+				9FD035AE190DA21DFC6E9C1FDA3B4457 /* Pods-EsptouchForIOS-JX_Example-umbrella.h */,
+				D2C54A0B327F235E16A5C518526ACC12 /* Pods-EsptouchForIOS-JX_Example.debug.xcconfig */,
+				66300F950D50F2009B93CB1399A2530B /* Pods-EsptouchForIOS-JX_Example.release.xcconfig */,
+			);
+			name = "Pods-EsptouchForIOS-JX_Example";
+			path = "Target Support Files/Pods-EsptouchForIOS-JX_Example";
+			sourceTree = "<group>";
+		};
+		96CCA585ED97617D21D2CB34A4F68FCB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A006ED3CC223E45D2A92F07753E5A9B5 /* EsptouchForIOS-JX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9C732F7ED721F7DC7D9271638BDF9A96 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95FED877569E04A8440417A75C4F03F3 /* EsptouchForIOS-JX.podspec */,
+				D540E3DEA4D7AE11702FAF0382A40AFE /* LICENSE */,
+				5F98A3E4650A3851E13BBCF42DF97D8A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A006ED3CC223E45D2A92F07753E5A9B5 /* EsptouchForIOS-JX */ = {
+			isa = PBXGroup;
+			children = (
+				6F137C7B0E56F3FE71382083ECAD794D /* ESP_ByteUtil.h */,
+				D921FB98AFC128BB711002C25A51F8F9 /* ESP_ByteUtil.m */,
+				59DEE2990ECF07494AD7C5983FE63060 /* ESP_CRC8.h */,
+				EA11EF500632385EDBDEE14B2FB4DDD7 /* ESP_CRC8.m */,
+				4731D9557EB7AFEDB8502EE941D11DC7 /* ESP_NetUtil.h */,
+				FD647D1005B1C8B4C067D6F7884AF783 /* ESP_NetUtil.m */,
+				45F8E2AFA38677D31C12ABDD9E56F8DC /* ESP_WifiUtil.h */,
+				66CB6B4360CBFB323B3AF4F960072599 /* ESP_WifiUtil.m */,
+				5CD90F1691C4CB6207505538CFCD6BDD /* ESPAES.h */,
+				56EF3E2F7B7F33A9110F50D90B691E29 /* ESPAES.m */,
+				4E2494A3691723891182E6BB52C70DCF /* ESPTools.h */,
+				E8B7C2120C6E34FA398DD24CA7BFD793 /* ESPTools.m */,
+				86B59587FD0C851BCBC8F7522FBB6CDE /* ESPVersionMacro.h */,
+				9C732F7ED721F7DC7D9271638BDF9A96 /* Pod */,
+				22DD816CB35BCB95C0DB5D29C3F377C9 /* Support Files */,
+			);
+			name = "EsptouchForIOS-JX";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				96CCA585ED97617D21D2CB34A4F68FCB /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				2BD3C1B977BB08964EC16D41ADB41079 /* Products */,
+				5854A3B49BB9F46610AA90D41C212210 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		222EBC05811065B8DF4D5C2AB3980BA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BF436AA8B6B6AFAC049DDADB6D8EC5 /* Pods-EsptouchForIOS-JX_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4941577AF26CE03D92398A25672D9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28293255099E3683DAF1EB8DFB83F886 /* ESP_ByteUtil.h in Headers */,
+				1F46620189F01D84924D2955FC602598 /* ESP_CRC8.h in Headers */,
+				B18E2F0558CCF6779AE108E25331C8A9 /* ESP_NetUtil.h in Headers */,
+				D89F4FA2F88EEEC46B07453C418CCB2F /* ESP_WifiUtil.h in Headers */,
+				456BF10DE1A84D6D3659825E459DA617 /* ESPAES.h in Headers */,
+				0B9CB92B9F8D88E417D41FEB11295017 /* ESPTools.h in Headers */,
+				DBC8E807401F47628FB03D808BA446C4 /* EsptouchForIOS-JX-umbrella.h in Headers */,
+				36418AB64EFFCD61CD0CFB20470893A9 /* ESPVersionMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		676275BE615DD8711C38556D8D10C3D1 /* EsptouchForIOS-JX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F21FA852B23BC8B28719E29C40E3A3 /* Build configuration list for PBXNativeTarget "EsptouchForIOS-JX" */;
+			buildPhases = (
+				EF4941577AF26CE03D92398A25672D9D /* Headers */,
+				1101BD4BFA6951FD19C5FFF7E99C7B07 /* Sources */,
+				A6083A59A433AF105CAEADE398D78135 /* Frameworks */,
+				AB1F70C252E7439AABBDCC09F63AD7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EsptouchForIOS-JX";
+			productName = EsptouchForIOS_JX;
+			productReference = B25AC647C28CA907D9AE0DD4976A7B00 /* EsptouchForIOS-JX */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DF0A290EC8BBC13734C9FA2E0BD3777 /* Pods-EsptouchForIOS-JX_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C1DC577FD7A3F7E6D7E380D0723B8C /* Build configuration list for PBXNativeTarget "Pods-EsptouchForIOS-JX_Example" */;
+			buildPhases = (
+				222EBC05811065B8DF4D5C2AB3980BA0 /* Headers */,
+				6011BCDE535CB6B573DBF821C7B7C468 /* Sources */,
+				3A511FB8F142DE9DE061E1DA13DF067E /* Frameworks */,
+				5D8F26F2FBF376F5DE4CCF25EC978EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202B190F61FA1FB74EB7C61382AF5C9D /* PBXTargetDependency */,
+			);
+			name = "Pods-EsptouchForIOS-JX_Example";
+			productName = Pods_EsptouchForIOS_JX_Example;
+			productReference = 8DEA6BC7A4AC4387D195240087F26963 /* Pods-EsptouchForIOS-JX_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2BD3C1B977BB08964EC16D41ADB41079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676275BE615DD8711C38556D8D10C3D1 /* EsptouchForIOS-JX */,
+				7DF0A290EC8BBC13734C9FA2E0BD3777 /* Pods-EsptouchForIOS-JX_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8F26F2FBF376F5DE4CCF25EC978EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F70C252E7439AABBDCC09F63AD7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1101BD4BFA6951FD19C5FFF7E99C7B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C5C999E1C04555D60BCC0F71F8FDF /* ESP_ByteUtil.m in Sources */,
+				917BE6CCBDD6E1DBB7FD39D68C609CB6 /* ESP_CRC8.m in Sources */,
+				EF52D3DA4F1E4E2E0F5BD56DAC037DAE /* ESP_NetUtil.m in Sources */,
+				5C7343B5D4E3B1F7D09DC369B453B3D1 /* ESP_WifiUtil.m in Sources */,
+				785FAE28274DA7C36A99BA5B6537A202 /* ESPAES.m in Sources */,
+				4681433637F16894F43E83D0512032E8 /* ESPTools.m in Sources */,
+				E010DD85B40014DD1B6FCB6288C46EC9 /* EsptouchForIOS-JX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011BCDE535CB6B573DBF821C7B7C468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B32BD855897FAB62FD4C7237CCADB /* Pods-EsptouchForIOS-JX_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202B190F61FA1FB74EB7C61382AF5C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EsptouchForIOS-JX";
+			target = 676275BE615DD8711C38556D8D10C3D1 /* EsptouchForIOS-JX */;
+			targetProxy = B8D0AE76FA1B235A95C149A22CFD83E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38875944548F379F9A412EC565156155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326866904118809E3B67F9D4B41DCCF8 /* EsptouchForIOS-JX.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX.modulemap";
+				PRODUCT_MODULE_NAME = EsptouchForIOS_JX;
+				PRODUCT_NAME = EsptouchForIOS_JX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DFA21443BCE51E4EF373B45A297509E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C54A0B327F235E16A5C518526ACC12 /* Pods-EsptouchForIOS-JX_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsptouchForIOS-JX_Example/Pods-EsptouchForIOS-JX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsptouchForIOS-JX_Example/Pods-EsptouchForIOS-JX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6A9BF3B5EF7D4C2317B56C587BE36B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2400CE9A92A338A4201FD5147525F0DC /* EsptouchForIOS-JX.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EsptouchForIOS-JX/EsptouchForIOS-JX.modulemap";
+				PRODUCT_MODULE_NAME = EsptouchForIOS_JX;
+				PRODUCT_NAME = EsptouchForIOS_JX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E372A40E4D260FAE1067605A1E005E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66300F950D50F2009B93CB1399A2530B /* Pods-EsptouchForIOS-JX_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EsptouchForIOS-JX_Example/Pods-EsptouchForIOS-JX_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EsptouchForIOS-JX_Example/Pods-EsptouchForIOS-JX_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F21FA852B23BC8B28719E29C40E3A3 /* Build configuration list for PBXNativeTarget "EsptouchForIOS-JX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38875944548F379F9A412EC565156155 /* Debug */,
+				D6A9BF3B5EF7D4C2317B56C587BE36B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C1DC577FD7A3F7E6D7E380D0723B8C /* Build configuration list for PBXNativeTarget "Pods-EsptouchForIOS-JX_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFA21443BCE51E4EF373B45A297509E /* Debug */,
+				E372A40E4D260FAE1067605A1E005E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

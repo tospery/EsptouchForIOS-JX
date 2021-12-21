@@ -1,0 +1,16 @@
+PODS:
+  - EsptouchForIOS-JX (2.0.0)
+
+DEPENDENCIES:
+  - EsptouchForIOS-JX (from `../`)
+
+EXTERNAL SOURCES:
+  EsptouchForIOS-JX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EsptouchForIOS-JX: c65b17c00882f722f9d9d0ecd789413c64f4847c
+
+PODFILE CHECKSUM: 64cf88320fe1a49e225f2bad4bf11272718de235
+
+COCOAPODS: 1.11.2
